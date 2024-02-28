@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#outerBox{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#innerBox{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+
+body{
+    background-color: blanchedalmond;
+}
